@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Read DB</title>
+		<h1>#3_ MongoDB 가져오기</h1>
+	</head>
+	<body>
+		<div>
+			<p>
+			{% for i in data %}
+			{{i}}<br>
+			------------------------------<br>
+			name: {{i.name}}<br>
+			type: {{i.type}}<br>
+			dot: {{i.dot}}<br>
+			...<br>
+			board: {{i.board}}<br>
+			GPS: {{i.GPS}}<br>
+			person: {{i.person}}<br>
+			neighbors_sectors_id: {{i.neighbor_sectors_id}}<br><br>
+			{% endfor %}</p>
+		</div>
+	</body>
+</html>

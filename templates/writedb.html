@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Write DB</title>
+	</head>
+	<body>
+		<h1>data inserted!</h1>
+		<div>
+			<p>DB connection success!<br>
+			------------------------------<br>
+			{% for i in data %}
+			{{i}}<br><br>
+			<!-- name: {{i.name}}, isline: {{i.isline}}, isdot: {{i.isdot}} -->
+			{% endfor %}</p>
+		</div>
+	</body>
+</html>

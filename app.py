@@ -2,7 +2,6 @@ from flask import Flask, request
 import json, numpy as np
 from custom_modules import Mapdata, OCR
 
-documents_list = []
 app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
@@ -17,7 +16,7 @@ def getMapdata(station):
     return : JSON Array
     """
     results = Mapdata.readCollection(station)
-
+    documents_list = []
     for result in results:
         result['_id'] = str(result['_id'])
         documents_list.append(result)

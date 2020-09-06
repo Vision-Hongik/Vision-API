@@ -1,6 +1,6 @@
 # Vision API
 
-## Vision 프로젝트 Rest API server
+Vision 프로젝트 Rest API server
 
 ---------------------------------
 * mongoDb - MapData

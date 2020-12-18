@@ -13,3 +13,11 @@
 * flask
 * pymongo
 * pytesseract
+
+
+## Getting Started
+
+```bash
+$ pip install -r requirements
+$ python app.py
+```

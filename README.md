@@ -13,7 +13,7 @@
 * flask
 * pymongo
 * pytesseract
-
+* mongoDB
 
 ## Getting Started
 

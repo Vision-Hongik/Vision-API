@@ -12,3 +12,4 @@
 ## Requirement
 * flask
 * pymongo
+* pytesseract
